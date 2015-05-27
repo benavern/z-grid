@@ -18,5 +18,7 @@ There are 2 different sizes:
 
 This grid is easy to use for begginers, and easy to customize for confirmed developpers.
 
+![Screenshot](/screenshot.jpg "Screenshot")
+
 ## How to
 Documentation is [HERE](http://labo.caradeuc.info/z-grid)
