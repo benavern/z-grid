@@ -1,0 +1,113 @@
+header, footer{
+	background:#303E49;
+	color:white;
+	padding:60px 0;
+}
+.body{
+	background:#eee;
+	color:#444;
+}
+
+.container{
+	width:90%;
+	max-width:1024px;
+	margin:0 auto;
+}
+section{
+	padding:30px 0;
+}
+
+.gototop{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	z-index:10;
+}
+
+.z-box{
+	background: #fff;
+}
+
+.bg-red{
+	background: #f00;
+}
+
+a{
+	color:#35a;
+	text-decoration:none;
+}
+
+.btn{
+	display:inline-block;
+	color:white;
+	background: #494;
+	box-shadow:2px 2px 10px black;
+	padding:10px 20px;
+	border-radius:4px;
+	margin:10px 5px;
+}
+
+.btn:hover{
+	box-shadow:none;
+	background: #4a4;
+}
+
+pre{
+	display:block;
+	padding:1.5rem 1rem;
+	margin: 1rem 0;
+	background: #323232;
+	border:silver;
+	color:white;
+	overflow-x:auto;
+	border-radius:4px;
+}
+
+.red, .green{
+	font-weight:bold;
+}
+
+.red{
+	color:#ff0000;
+}
+
+.green{
+	color:#50eb50;
+}
+
+.align-center{
+	text-align:center;
+}
+
+
+hr{
+	margin:30px 0;
+	border:none;
+	background:#ccc;
+	height:2px;
+	position:relative;
+	display:block;
+}
+
+
+
+.z-box.black-box{background: #000; color:#fff;}
+
+.z-grid > [class *= "z-"] > .custom-box{
+	padding:1em;
+	margin:3em;
+	background:#559;
+	color:#595;
+	border:10px #955 dotted;
+	text-align:center;
+}
+
+
+small{
+	color:#888;
+}
+
+.z-grid > [class *= "z-"] > img{
+	display:block; 
+	max-width:100%;
+}

@@ -1,0 +1,74 @@
+/*================
+	RESET
+==================*/
+
+*, *:before, *:after{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p, ol, ul, li{
+	margin:0.5em 0;
+	display:block;
+}
+li{
+	display:list-item;
+}
+ul, ol{
+	margin-left:2rem;
+}
+
+html{
+	font-size:18px;
+}
+html *{
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body{
+	font-family:sans-serif;
+	font-size:1rem;
+	line-height:1.6;
+}
+
+
+/*================
+	the grid
+=================*/
+
+.z-grid{
+	font-size:0;
+	width:100%;
+	display:block;
+}
+.z-grid > div{
+	display:inline-block;
+	position:relative;
+	width:100%; /*fallback ;) if z-xxx (mistake)*/
+	font-size:1rem;
+	vertical-align: top;
+}
+.z-grid > [class *= "z-"] > .z-box{
+	margin:10px;
+	padding:15px 25px;
+	border-radius: 4px;
+}
+.z-grid > .z-1, .z-grid > .z-1-f{width:100%;}
+.z-grid > .z-2, .z-grid > .z-2-f{width:50%;}
+.z-grid > .z-3, .z-grid > .z-3-f{width:33.333%;}
+.z-grid > .z-4, .z-grid > .z-4-f{width:25%;}
+.z-grid > .z-5, .z-grid > .z-5-f{width:20%;}
+
+.z-box.red-box{background: red; color:#fafafa;}
+.z-box.green-box{background: green; color:#fafafa;}
+.z-box.blue-box{background: blue; color:#fafafa;}
+
+@media (max-width: 768px){ /* under that screen width, things will be 100% wide */
+	.z-grid > .z-1{width:100%;}
+	.z-grid > .z-2{width:100%;}
+	.z-grid > .z-3{width:100%;}
+	.z-grid > .z-4{width:100%;}
+	.z-grid > .z-5{width:100%;}
+}
+
