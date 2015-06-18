@@ -22,3 +22,6 @@ This grid is easy to use for begginers, and easy to customize for confirmed deve
 
 ## How to
 Documentation is [HERE](http://labo.caradeuc.info/z-grid)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/benavern/z-grid/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
