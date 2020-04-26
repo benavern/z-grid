@@ -1,5 +1,6 @@
 # Z-GRID
-#####This my EXTREMELY lightweight grid system (~5ko!!)
+
+> This my EXTREMELY lightweight grid system (~5ko!!)
 
 ---
 
@@ -21,7 +22,6 @@ This grid is easy to use for begginers, and easy to customize for confirmed deve
 ![Screenshot](/screenshot.jpg "Screenshot")
 
 ## How to
-Documentation is [HERE](http://labo.caradeuc.info/z-grid)
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/benavern/z-grid/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+Documentation is [HERE](https://benavern.github.io/z-grid)
 
